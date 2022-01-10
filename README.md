@@ -1,2 +1,4 @@
 # NaiveRT
-Naive Radiative Transfer (proof of concept)
+Naive Radiative Transfer
+
+This is a proof-of-concept of a 2d Radiative transfer code.
