@@ -65,10 +65,10 @@ int main(int argc, char** argv)
     r_number h; //stepsize
     r_number currI,nextI; //I_n and I_n+1, respectively
     r_number K[6]; //the 'k' of the runge-kutta methods, for this one, I need six of them
-    #if FIXED_STEP == 0
-        r_number errorI; //Estimation of the error
-        r_number control_param; //control parameter for the adaptive stepsize 
-    #endif
+    //#if FIXED_STEP == 0
+    //    r_number errorI; //Estimation of the error
+    //    r_number control_param; //control parameter for the adaptive stepsize 
+    //#endif
     //r_number FourPiJ[N_nu]; //4piJ. This is the result we are looking for.
     r_number dJ, dF, dP; //differential of J, F and P for each line of sight.
     r_number Ri,zj; //Points of the grid, R[i] and z[j]
