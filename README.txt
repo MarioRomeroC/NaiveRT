@@ -5,7 +5,6 @@ This is a proof-of-concept of a 2d Radiative transfer code.
 It solves the radiative transfer equation
 dI/ds = j - a*I
 and returns the mean intensity J = int(I*dOmega)/4pi for an axissymetric geometry
-I uploaded to github in order to record this code.
 
 This code was dropped in favour of Mixclask, located here: https://github.com/MarioRomeroC/Mixclask
 If you want to run it, first read the define.h and change their options if you desire.
